@@ -15,7 +15,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.2.2.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
 	<properties>
@@ -29,13 +29,36 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>opsware_common-latest</groupId>
+			<artifactId>com.opsware</artifactId>
+			<version>10.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/opsware_common-latest.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>opswclientt</groupId>
+			<artifactId>com.opsware</artifactId>
+			<version>10.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/opswclient.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>spinclient-latest</groupId>
+			<artifactId>com.opsware</artifactId>
+			<version>10.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/spinclient-latest.jar</systemPath>
+		</dependency>
 	</dependencies>
+
 
 	<build>
 		<plugins>

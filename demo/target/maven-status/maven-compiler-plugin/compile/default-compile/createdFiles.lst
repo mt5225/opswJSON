@@ -1,3 +1,8 @@
+demo\opsw\RunAuditJob.class
 demo\GreetingController.class
 demo\Greeting.class
+demo\opsw\OpswController.class
 demo\DemoApplication.class
+demo\opsw\OPSWUtil.class
+demo\opsw\GetServerInfo.class
+demo\opsw\JobInfoService.class
